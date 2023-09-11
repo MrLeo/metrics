@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
+      # https://github.com/lowlighter/metrics/blob/master/README.md#-plugins
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
