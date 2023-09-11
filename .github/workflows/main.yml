@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
     # https://github.com/lowlighter/metrics/blob/master/README.md
     steps:
       - uses: lowlighter/metrics@latest
